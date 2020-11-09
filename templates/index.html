@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>URL SHORTENER</title>
+
+{% endblock %}
+
+{% block body %}
+<section class="container text-center" style="padding: 6%;">
+
+	Hello there
+</section>
+<section class="container">
+	<form class="form-group py-5 text-center mx-1" method="GET" action="/create">
+	  <div class="bg-info text-white p-5">Note: Enter the url </div>
+	  <input class="form-control my-5" type="text" name="url" placeholder="input url"></input><br>
+	  <button class="btn btn-danger">Start</button>
+	</form>
+</section>
+{% endblock %}

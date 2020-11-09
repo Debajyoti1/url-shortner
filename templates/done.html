@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+<title>URL SHORTENER</title>
+
+{% endblock %}
+
+{% block body %}
+<section class="container text-center" style="padding: 20%;">
+
+    Hello there
+    here is your url: <a href="/go?url={{val}}" target="_blank">{{ur}}</a><br>
+    copy here: <a href="#">https://localhost/go?url={{val}}</a>
+</section>
+
+{% endblock %}
